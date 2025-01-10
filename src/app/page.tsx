@@ -7,7 +7,7 @@ import mac from "../../images/mclaren-png.png"
 import ferr from "../../images/ferrari.png"
 import gtr from "../../images/gtr.png"
 import por from "../../images/porsche.png"
-import Footer from "./components/Footer/page";
+import Footer from '../components/Footer/page';
 
 export default function Homes() {
   return (
@@ -21,8 +21,8 @@ export default function Homes() {
         <Link className="logo" href="/"> <Image src={logc.src} alt="" className="logimg" width={75} height={80} /><span className="nme">CarFreaks</span></Link>
 
         <nav>
-          <ul className=`headlinks text-[#b4b4b4]`>
-            <Link className=`nvlnk` href="#">Home</Link>
+          <ul className="headlinks text-[#b4b4b4]">
+            <Link className="nvlnk" href="#">Home</Link>
             <Link className="nvlnk" href="#">Latest </Link>
             <Link className="nvlnk" href="#">Contact</Link>
             <Link className="nvlnk" href="#">About</Link>
