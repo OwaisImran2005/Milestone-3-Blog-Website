@@ -31,7 +31,7 @@ export default function Blog1() {
 
             The legacy and impact of the Dodge Challenger <br /> are undeniable. It remains a symbol of American muscle cars, embodying the spirit of performance, power, and style. The Challenger continues to inspire a new generation <br /> of car enthusiasts, ensuring its place in automotive history for years to come.Its timeless design and features, coupled with its outstanding performance and power, make it a standout choice among muscle cars. The extensive customization options allow owners to create a truly unique vehicle that reflects their personality and style.
 
-            Driving a Dodge Challenger is more than just a commute; it's an exhilarating experience that highlights the car's superior engineering and capabilities. Its legacy as an American muscle car remains strong, influencing car design and culture worldwide. The Dodge Challenger stands as a testament to the enduring appeal of power, style, and innovation in the automotive world, making it a beloved icon for car lovers everywhere.</p>
+            Driving a Dodge Challenger is more than just a commute; it`s an exhilarating experience that highlights the car`s superior engineering and capabilities. Its legacy as an American muscle car remains strong, influencing car design and culture worldwide. The Dodge Challenger stands as a testament to the enduring appeal of power, style, and innovation in the automotive world, making it a beloved icon for car lovers everywhere.</p>
 
         </div>
       </div>
