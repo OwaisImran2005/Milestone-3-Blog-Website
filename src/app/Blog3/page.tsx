@@ -1,21 +1,10 @@
-import { FC } from 'react';
+
 import CommentSection from '../components/commentSec/page';
 import Header from '../components/Header/page';
-import dodgec from "../../../images/dchlng.png"
-import Link from 'next/link';
-import bugh from "../../../images/bugatti-png.png"
 import mac from "../../../images/mclaren-png.png"
-import lam from "../../../images/lambo.jpg"
-import am from "../../../images/aston-martin-png.png"
-import cam from "../../../images/camaro.png"
-import ferr from "../../../images/ferrari.png"
-import gtr from "../../../images/gtr.png"
-import por from "../../../images/porsche.png"
 import Footer from '../components/Footer/page';
 import Blogcards from '../Blogcards/page';
 import Image from 'next/image';
-
-
 
 export default function Blog3() {
 
@@ -37,9 +26,9 @@ export default function Blog3() {
 Beyond their impressive specs, McLaren vehicles embody the spirit of adventure <br /> and the thrill of the drive. Their cars are a testament to what can be achieved when innovation and passion intersect. <br />
 <br />
 
- Each model is a masterpiece, showcasing the brand's commitment to excellence and pushing the limits of what is possible in automotive design.
+ Each model is a masterpiece, showcasing the brand`s commitment to excellence and pushing the limits of what is possible in automotive design.
 
-The experience of driving a McLaren is unparalleled. Whether you're navigating winding roads or hitting top speeds on a track, McLaren's precision engineering ensures that every moment behind the wheel is exhilarating. <br /> The brand's dedication to innovation means that their cars are not only fast but also technologically  advanced, providing drivers with the latest in automotive technology. <br />McLaren's impact on the automotive industry is profound. Their continuous pursuit of perfection and groundbreaking advancements inspire the entire automotive community. <br />
+The experience of driving a McLaren is unparalleled. Whether you`re navigating winding roads or hitting top speeds on a track, McLaren`s precision engineering ensures that every moment behind the wheel is exhilarating. <br /> The brand`s dedication to innovation means that their cars are not only fast but also technologically  advanced, providing drivers with the latest in automotive technology. <br />McLaren`s impact on the automotive industry is profound. Their continuous pursuit of perfection and groundbreaking advancements inspire the entire automotive community. <br />
  As they continue to innovate and push the envelope, McLaren remains at the forefront of the industry, leading the way in performance, design, and technology.</p>
 
         </div>
