@@ -1,26 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import logc from "../../images/sports-car-logo-icon-set-260nw-2341988433.jpg"
-import fpic from "../../images/pagani.png"
 import dodgec from "../../images/dchlng.png"
 import bugh from "../../images/bugatti-png.png"
 import mac from "../../images/mclaren-png.png"
-import lam from "../../images/lambo.jpg"
-import am from "../../images/aston-martin-png.png"
-import cam from "../../images/camaro.png"
 import ferr from "../../images/ferrari.png"
 import gtr from "../../images/gtr.png"
 import por from "../../images/porsche.png"
-import commentsec from "./components/commentSec/page"
-import CommentSection from "./components/commentSec/page";
-import Header from "./components/Header/page";
 import Footer from "./components/Footer/page";
-
-import style from "../app/components/Footer/page.module.css"
-import { IoLogoFacebook } from "react-icons/io";
-import { FaSquareInstagram } from "react-icons/fa6";
-import { IoLogoTwitter } from "react-icons/io";
-import { FaYoutube } from "react-icons/fa";
 
 export default function Homes() {
   return (
@@ -34,8 +21,8 @@ export default function Homes() {
         <Link className="logo" href="/"> <Image src={logc.src} alt="" className="logimg" width={75} height={80} /><span className="nme">CarFreaks</span></Link>
 
         <nav>
-          <ul className="headlinks text-[#b4b4b4]">
-            <Link className="nvlnk" href="#">Home</Link>
+          <ul className=`headlinks text-[#b4b4b4]`>
+            <Link className=`nvlnk` href="#">Home</Link>
             <Link className="nvlnk" href="#">Latest </Link>
             <Link className="nvlnk" href="#">Contact</Link>
             <Link className="nvlnk" href="#">About</Link>
@@ -132,7 +119,7 @@ export default function Homes() {
           <h2 className="ctext">Porsche: The Pinnacle of Performance and Luxury</h2>
           <ul className="bmve">
 
-            <li className="textb">Porsche's engineering excellence is epitomized by powerful engines, including turbocharged flat-six options that deliver heart-pounding acceleration.</li>
+            <li className="textb">Porsche`s engineering excellence is epitomized by powerful engines, including turbocharged flat-six options that deliver heart-pounding acceleration.</li>
             <li className="textb"> Equipped with a cutting-edge infotainment system, Porsche offers seamless connectivity and intuitive navigation.</li>
             <li className="textb">The signature silhouette combines classic aesthetics with modern aerodynamics, resulting <Link href="/Blog6" className="seemore text-gray-700 pl-2 text-">See More</Link>
               {/* in a striking exterior that enhances both performance and visual appeal. */}
