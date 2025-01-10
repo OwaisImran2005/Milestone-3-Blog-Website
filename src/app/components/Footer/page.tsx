@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link"
 import style from "../Footer/page.module.css"
-import logc from "../../../../images/sports-car-logo-icon-set-260nw-2341988433.jpg"
-import Header from "../Header/page"
 import { IoLogoFacebook } from "react-icons/io";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io";
@@ -26,9 +24,9 @@ export default function Footer() {
                 
                 <h1 className=" text-white text-2xl font-semibold pt-4 pl-56">About Us</h1>
 
-                <p className=" ftrt2 text-white text-lg font-extralight pl-56 pt-5">
+                <p className=` ftrt2 text-white text-lg font-extralight pl-56 pt-5">
                     Car Freaks: A community for auto  <br /> enthusiasts who share a passion for cars. <br />
-                    Reviews, tips, and more  <br /> let"s drive the conversation forward! 🚗💨</p>
+                    Reviews, tips, and more  <br /> let`s drive the conversation forward! 🚗💨</p>
             </div>
 
             <ul className="ftr_lnks1 text-white font-extralight absolute mt-5 ">
