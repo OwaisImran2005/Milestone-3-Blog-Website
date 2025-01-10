@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import Image from "next/image";
 import logc from "../../images/sports-car-logo-icon-set-260nw-2341988433.jpg"
@@ -7,7 +8,7 @@ import mac from "../../images/mclaren-png.png"
 import ferr from "../../images/ferrari.png"
 import gtr from "../../images/gtr.png"
 import por from "../../images/porsche.png"
-import Footer from '../components/Footer/page';
+import Footer from "../app/components/Footer/page";
 
 export default function Homes() {
   return (
