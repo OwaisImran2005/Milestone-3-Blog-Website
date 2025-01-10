@@ -1,6 +1,6 @@
 import Link from "next/link"
 import logc from "../../../../images/sports-car-logo-icon-set-260nw-2341988433.jpg"
-import Image from 'next/image';
+import Image from "next/image";
 
 
 export default function Header(){
