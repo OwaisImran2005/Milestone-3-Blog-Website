@@ -24,7 +24,7 @@ export default function Footer() {
                 
                 <h1 className=" text-white text-2xl font-semibold pt-4 pl-56">About Us</h1>
 
-                <p className=` ftrt2 text-white text-lg font-extralight pl-56 pt-5">
+                <p className="ftrt2 text-white text-lg font-extralight pl-56 pt-5">
                     Car Freaks: A community for auto  <br /> enthusiasts who share a passion for cars. <br />
                     Reviews, tips, and more  <br /> let`s drive the conversation forward! 🚗💨</p>
             </div>
