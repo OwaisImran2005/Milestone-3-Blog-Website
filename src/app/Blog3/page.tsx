@@ -20,7 +20,7 @@ export default function Blog3() {
           <h2 className="text-3xl font-semibold">McLaren: Where Innovation Meets Performance</h2>
           <p className="pt-6 text-lg">McLaren: Where innovation meets performance. Renowned for their cutting-edge designs, McLaren blends speed, <br />
              agility, and luxury seamlessly.Their models, like the P1 and 720S, deliver unparalleled performance with advanced <br /> aerodynamics and materials science. The interiors offer refined comfort,
-              ensuring an exhilarating driving <br /> experience. McLaren's rich motorsport heritage, especially in Formula 1, informs their road cars' design and <br />performance. By constantly pushing the boundaries of 
+              ensuring an exhilarating driving <br /> experience. McLaren`s rich motorsport heritage, especially in Formula 1, informs their road cars` design and <br />performance. By constantly pushing the boundaries of 
               automotive engineering, McLaren sets new standards for <br /> innovation and performance.
 
 Beyond their impressive specs, McLaren vehicles embody the spirit of adventure <br /> and the thrill of the drive. Their cars are a testament to what can be achieved when innovation and passion intersect. <br />
