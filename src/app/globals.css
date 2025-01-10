@@ -1,0 +1,417 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:mono ;
+    src: url(fonts/GeistMonoVF.woff);
+}
+@font-face {
+    font-family:gesi ;
+    src: url(fonts/GeistVF.woff);
+}
+@font-face {
+    font-family: front;
+    src: url(fonts/SpicyRice-Regular.ttf);
+}
+@font-face {
+  font-family:fancy ;
+  src: url(fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family:ftext ;
+  src: url(fonts/PermanentMarker-Regular.ttf);
+}
+@font-face {
+  font-family: ftext2;
+  src: url(fonts/LuckiestGuy-Regular.ttf);
+}
+@font-face {
+  font-family:ftext3 ;
+  src: url(fonts/Rowdies-Regular.ttf);
+}
+@font-face {
+  font-family:join ;
+  src: url(fonts/GreatVibes-Regular.ttf);
+}
+
+
+.bg{
+  background-color: black;
+  width: 100%;
+  height: 2000px;
+}
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+ .nme{
+  margin-left: 105px;
+  /* padding-top: 30px; */
+  /* color: #fd6e00; */
+  color: red;
+  text-shadow:  4px -3px 1px whitesmoke;
+ 
+ }
+.logimg{
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+.logo{
+  /* color: rgb(255, 1, 1); */
+  font-family: fancy;
+  font-size: 38px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 30px;
+  /* padding-left: 50px; */
+  /* margin-bottom: 400px; */
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+header {
+  background: rgba(0, 0, 0, 0);
+  /* color: #fff; */
+  padding: 20px;
+  height: 100px;
+  /* border-radius: 50px; */
+}
+.headlinks{
+  margin-left: 800px;
+  padding-top: 25px;
+  position: absolute;
+}
+.nvlnk{
+  position: relative;
+  margin-left: 80px;
+  padding: 0 20px;
+  font-size: 28px;
+  font-family: fancy;
+}
+.nvlnk::after{
+  content: "";
+  width: 0;
+  height:3px;
+  background-color: red;
+  position: absolute;
+  left: 0px;
+  bottom: -25px;
+  transition: 0.3s;
+  
+}
+.nvlnk:hover::after{
+  width: 100%;
+}
+.nvlnk:hover{
+  color: whitesmoke;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+.fpic{
+  width: 670px;
+  height:670px;
+margin-left: 920px;
+  /* position: absolute; */
+  filter: contrast(130%);
+}
+.ftext{
+  color: red;
+  font-family: ftext3;
+  font-size: 35px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 60px;
+  letter-spacing: 0.5px;
+  /* word-spacing: 2.5px; */
+  line-height: 60px;
+}
+.f2{
+  color: whitesmoke;
+  font-family: join;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 60px;
+}
+
+.main {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  /* position: absolute; */
+}
+
+.blog-space {
+  width: 25%;
+  height: 430px;
+  margin-left: 103px;
+  padding-top: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  transition: 0.5s ease-out;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-space img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+#b2{
+  margin-top: 150px;
+}
+.imgd{
+  margin-left: 45px;
+  /* bottom: -350px; */
+  /* position: absolute; */
+  filter: drop-shadow(1px 1px 1px black);
+}
+.bugh{
+  margin-left: 65px;
+  margin-top: 25px;
+  position: absolute;
+  filter: drop-shadow(2px 2px 1px black);
+}
+.mac{
+  margin-left: 25px;
+  margin-top: 33px;
+  position: absolute;
+  filter: drop-shadow(2px 2px 1px black);
+/* png maclaren help with png web notes and als o cover new topic */
+}
+.ferr{
+  margin-top: 39px;
+  margin-left: 40px;
+  position: absolute;
+}
+.gtr{
+  position: absolute;
+  margin-top: 33px;
+  margin-left: 55px;
+}
+.porsc{
+  
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+.animate{
+  background-size: 100% 100%;
+  width: 700px;
+  height: 670px;
+  margin-left: 920px;
+  animation:caranima 18s ease-in-out infinite;
+}
+@keyframes caranima {
+  0%{background-image: url(../../images/pagani.png)}
+  10%{background-image: url(../../images/pagani.png)}
+  25%{background-image: url(../../images/aston-martin-png.png)}
+  50%{background-image: url(../../images/89-892180_2016-camaro-png.png)}
+  75%{background-image: url(../../images/og.png)}
+  100%{background-image: url(../../images/lamborghini-png.png)}
+  
+
+}
+.ctext{
+  font-family: gesi;
+  font-weight: 800;
+  font-size: 16.5px;
+}
+.bmve{
+  margin-top: 20px;
+  margin-left: 15px;
+  list-style-type:disc;
+}
+.textb{
+  font-size: 14.5px;
+  color: black;
+  margin-top: 12px;
+}
+.seemore{
+  font-size: 15.5px;
+  text-decoration: underline gray;
+}
+.blog-space:hover{
+  transform: translateY(-20px);
+  transition: 0.3s ease-out;
+}
+
+
+/*               footer           */
+.bg_footer{
+  background-color: black;
+  height: 360px;
+  width: 100%;
+  /*  */
+  margin-top: 70px;
+  /* display: flex; */
+}
+.cfftr{
+  top: 900px;
+}
+.ftr1{
+  padding-top: 130px;
+}
+.ftrt2{
+  font-size: 17px;
+}
+.ftr_lnks1{
+  left: 45rem;
+}
+.ftr_lnks2{
+  left: 65rem;
+}
+.ftr_lnks3{
+  left: 85rem;
+}
+
+.logoftr{
+  margin-left: 700px;
+}
+
+
+.blogcar{
+  margin-left: 940px;
+}
+.blogcar2{
+  margin-left: 1020px;
+}
+.blogcar3{
+  margin-left: 930px;
+}
+
+.comment{
+
+  margin-right: 900px;
+  margin-top: 100px;
+}
+
+.bgtest{
+  width: 840px;
+  height: 600px;
+}
+
+
+
+
+
+/* MEDIA QUERRIES */
+
+@media only screen and (max-width: 1645px)  {
+  .ctext{
+    font-size: 15px;
+  }
+  .textb{
+    font-size: 14px;
+  }
+  .animate{
+    width: 600px;
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 1575px)  {
+  .ftext{
+    font-size: 31px;
+  }
+    .animate{
+      width: 550px;
+    height: 550px;
+    }
+    .headlinks
+  {
+    margin-left: 600px;
+   }
+}
+@media only screen and (max-width: 1525px)  {
+    .animate{
+      width: 530px;
+    height: 530px;
+    }
+    .headlinks
+  {
+    margin-left: 600px;
+   }
+   .textb{
+    font-size: 13px;
+   }
+}
+@media only screen and (max-width: 1441px)  {
+  .ftext{
+    font-size: 29px;
+  }
+    .animate{
+      margin-left: 850px;
+    width: 500px;
+    height: 500px;
+    }
+    .textb{
+      font-size: 13px;
+     }
+     .f-logo{
+       margin-left: -70px;
+     }
+     .ftr1{
+      margin-left: -70px;
+     }
+     .ftr_lnks1{
+      margin-left: -70px;
+     }
+     .ftr_lnks2{
+      margin-left: -70px;
+     }
+     .ftr_lnks3{
+       margin-left: -120px;
+      }
+      .ftr2-p{
+        font-size: 16px;
+        position: absolute;
+      }
+    .imgd , .bugh , .mac ,.porsc , .ferr , .gtr{
+      width: 210px;
+      height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1345px)  {
+.headlinks{
+  margin-left: 440px;
+}
+.ftext{
+  font-size: 27px;
+}
+.animate{
+  width: 450px;
+  height: 460px;
+  margin-left:800px;
+}
+.f-logo{
+  margin-left: -100px;
+}
+.ftr1{
+ margin-left: -100px;
+}
+.ftr_lnks1{
+ margin-left: -120px;
+}
+.ftr_lnks2{
+ margin-left: -150px;
+}
+.ftr_lnks3{
+  margin-left: -200px;
+ }
+}
