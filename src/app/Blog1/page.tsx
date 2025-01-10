@@ -1,19 +1,11 @@
-import { FC } from 'react';
-import CommentSection from '../components/commentSec/page';
-import Header from '../components/Header/page';
-import dodgec from "../../../images/dchlng.png"
-import Link from 'next/link';
+
+import CommentSection from "../components/commentSec/page";
+import Header from "../components/Header/page";
+import dodgec from "../../../images/dchlng.png";
 import bugh from "../../../images/bugatti-png.png"
-import mac from "../../../images/mclaren-png.png"
-import lam from "../../../images/lambo.jpg"
-import am from "../../../images/aston-martin-png.png"
-import cam from "../../../images/camaro.png"
-import ferr from "../../../images/ferrari.png"
-import gtr from "../../../images/gtr.png"
-import por from "../../../images/porsche.png"
-import Footer from '../components/Footer/page';
-import Blogcards from '../Blogcards/page';
-import Image from 'next/image';
+import Footer from "../components/Footer/page";
+import Blogcards from "../Blogcards/page";
+import Image from "next/image";
 
 
 
