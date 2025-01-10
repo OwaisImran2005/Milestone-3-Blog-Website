@@ -31,7 +31,7 @@ Inside, the GTR offers a blend of luxury and functionality. The interior is desi
 <br />
  Every detail is crafted to provide comfort and convenience, making the GTR as enjoyable to drive as it is thrilling.
 
-The design of the Nissan GTR is both aggressive and aerodynamic. Its sleek lines and bold features not only enhance its appearance but also improve its performance. The GTR's iconic shape is instantly recognizable, symbolizing power and speed.
+The design of the Nissan GTR is both aggressive and aerodynamic. Its sleek lines and bold features not only enhance its appearance but also improve its performance. The GTR`s iconic shape is instantly recognizable, symbolizing power and speed.
 
 The driving experience of the GTR is unparalleled. Whether navigating winding roads or pushing the limits on a track, the GTR provides a sense of control and excitement that few cars can match. Its legendary status is well-earned, and it continues to set new benchmarks for performance and innovation. The Nissan GTR`s legacy is one of constant evolution and improvement. It remains a symbol of engineering prowess and a testament to Nissan`s dedication to creating exceptional vehicles. As the GTR continues to evolve, it will undoubtedly inspire future generations of car enthusiasts and set new standards in the automotive industry.
           </p>
