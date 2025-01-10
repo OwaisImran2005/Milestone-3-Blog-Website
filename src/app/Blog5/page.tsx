@@ -17,10 +17,10 @@ export default function Blog5() {
 
       <div className="container mx-auto mt-24 ">
         <div className="main-content">
-<div className='bgtest'>
+<div className="bgtest">
 
 
-          <h2 className=`text-3xl font-semibold`>Nissan GTR: A Legend Reimagined</h2>
+          <h2 className="text-3xl font-semibold">Nissan GTR: A Legend Reimagined</h2>
           <p className="pt-6 text-lg">
           Nissan GTR: A Legend Reimagined. The Nissan GTR, also known as `Godzilla,` has been an icon in the automotive world for decades. Renowned for its incredible performance and cutting-edge technology, the GTR continues to captivate car enthusiasts around the globe.
 
