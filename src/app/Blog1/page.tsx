@@ -2,7 +2,6 @@
 import CommentSection from "../components/commentSec/page";
 import Header from "../components/Header/page";
 import dodgec from "../../../images/dchlng.png";
-import bugh from "../../../images/bugatti-png.png"
 import Footer from "../components/Footer/page";
 import Blogcards from "../Blogcards/page";
 import Image from "next/image";
